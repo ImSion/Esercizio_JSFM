@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio JS Fine Modulo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <!-- logo -->
+        <div id="logo">
+          <h1>POV Jobs</h1>
+        </div>
+
+        <!-- div con i due input di ricerca + button -->
+        <div id="navsearch">
+          <form id="jobbox">
+            <label for="Lavoro"> Lavoro </label>
+            <div id="jobsearch">
+              <img id="searchimg" src="assets/search_img.png" alt="search icon"/>
+              <input id="job" type="text" placeholder="Cerca per qualifica" />
+            </div>
+          </form>
+
+          <form id="locationbox">
+            <label for="luogo"> Luogo </label>
+            <div id="loctsearch">
+              <img id="loctimg" src="assets/Position.png" alt="location icon" />
+              <input id="location" type="text" placeholder="Città, Stato o CAP"/>
+            </div>
+          </form>
+
+          <button id="searchbutton" onclick="search()">Cerca</button>
+        </div>
+
+        <!-- div per la sezione user experience a destra -->
+        <div id="userexp">
+          <div id="usericon">
+            <img id="iconimg" src="assets/user_img.png" alt="user icon" />
+          </div>
+
+          <div id="notification">
+            <img id="notificationimg" src="assets/notification_png.png" alt="notification"/>
+          </div>
+
+          <!-- div per l'hidden menu -->
+          <div id="menu">
+            <img id="menuimg" src="assets/menu_img.png" alt="menu icon" />
+            <div id="hiddenmenu" class="hide">
+              ciao simone guarda che bella tendina che ti ho fatto
+              <img id="smileimg" src="assets/smile_img.png" alt="smile" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="midpageheader">
+        <img class="work1" src="assets/work_img.png" alt="work_img" />
+        <h1>Posizioni lavorative aperte</h1>
+      </div>
+      <div id="midpage">
+        <ol id="midpg"></ol>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
