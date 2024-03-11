@@ -170,7 +170,7 @@ function search() {
   countResult.textContent =
     "Posizioni Lavorative trovate: " + searchresult.count;
     // console.log(countResult);
-  list.appendChild(countResult);
+  midpage.appendChild(countResult);
 }
 
 let menu = document.getElementById(`menu`);

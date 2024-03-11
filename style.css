@@ -208,20 +208,6 @@ main {
     background-size: 100%;
 }
 
-#leftpg {
-    padding: 10px;
-    width: 550px;
-    height: 750px;
-    border: 2px solid black;
-    background-color: rgb(255, 237, 76);
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 75px;
-    box-shadow: -7px 3px 5px rgba(255, 188, 65, 0.795);
-    border-radius: 10px;
-    text-align: center;
-}
-
 #midpage {
     width: 800px;
     max-height: 750px;
@@ -253,8 +239,11 @@ main {
     color: rgb(231, 197, 0);
     box-shadow: 3px 3px 5px black;
     display: flex;
-    text-align: center;
     position: fixed;
+}
+
+.midpageheader h1 {
+  margin-left: 10px;
 }
 
 .work1 {
@@ -279,32 +268,21 @@ main {
     box-shadow: 8px 4px 5px black;
 }
 
-#midpg p {
-    font-size: 15px;
+#midpage p {
+    font-size: 16px;
     font-weight: 600;
     color: orange;
     margin-left: 220px;
+    position: absolute;
+    position: fixed ;
+    top: 125px;
+    margin-right: 25px;
 }
 
 li:hover {
     font-weight: 700;
     background-color:black;
     cursor: pointer;
-}
-
-#rightpg {
-    padding: 10px;
-    width: 550px;
-    height: 750px;
-    background-color: rgb(255, 237, 76);
-    margin-left: 15px;
-    margin-right: 10px;
-    border: 2px solid black;
-    margin-top: 75px;
-    box-shadow: 5px 3px 5px rgba(255, 188, 65, 0.795);
-    border-radius: 10px;
-    text-align: center;
-
 }
 
 #listresult {
